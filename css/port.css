@@ -1,0 +1,146 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Fixed Navbar */
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #222;
+    padding: 15px 50px;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00bcd4;
+}
+
+/* Home Section */
+
+.home {
+    padding-top: 120px;
+    min-height: 50vh;
+    background-color: #f5f5f5;
+}
+
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.text {
+    width: 50%;
+}
+
+.text h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.text h2 {
+    font-size: 28px;
+    color: #00bcd4;
+    margin-bottom: 15px;
+}
+
+.text p {
+    font-size: 18px;
+}
+
+.image {
+    width: 40%;
+    text-align: center;
+}
+
+.image img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #00bcd4;
+}
+
+/* Other Sections */
+
+section {
+    padding: 80px 50px;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #222;
+    text-align: center;
+    background-color: #5555554d;
+}
+
+section p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* projects */
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+.project1{
+    max-width: 300px;
+}
+.project1 p{
+    text-align: justify;
+}
+
+#skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#skills p{
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
